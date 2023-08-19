@@ -1,0 +1,35 @@
+# directories
+data_path: '...'
+load_ckpt_filepath : '...' 
+store_ckpt_path: '...'
+results_path: '...'
+
+
+# general settings
+verbose: False
+show_training: True
+seed: 42
+verbose: True
+
+
+# data settings
+img_width: 128
+img_height: 128
+n_channels: 3
+validation_ratio: 0.2
+
+
+# hyperparameters
+num_epochs: 100
+batch_size: 32
+lr: 0.001
+
+
+# training settings
+early_stopping: True
+lr_scheduler: True
+transform: False
+
+
+
+
